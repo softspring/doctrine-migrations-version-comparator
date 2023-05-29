@@ -1,0 +1,29 @@
+{
+    "name": "softspring/doctrine-migrations-version-comparator",
+    "description": "Provides a class to sort doctrine migrations by version name",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "doctrine/migrations": "^3.6",
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "phpstan/phpstan": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softspring\\Component\\DoctrineMigrationsVersionComparator\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-5.1": "5.1.x-dev"
+        }
+    }
+}
