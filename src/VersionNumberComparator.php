@@ -10,7 +10,7 @@ class VersionNumberComparator implements Comparator
     public function compare(Version $a, Version $b): int
     {
         try {
-            return (new \ReflectionClass("$a"))->getName() <=> (new \ReflectionClass("$b"))->getName();
+            return (new \ReflectionClass("$a"))->getShortName() <=> (new \ReflectionClass("$b"))->getShortName();
         } catch (\ReflectionException $e) {
             return 0;
         }
