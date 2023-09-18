@@ -8,6 +8,20 @@
 [![Build status](https://github.com/softspring/doctrine-migrations-version-comparator/actions/workflows/php.yml/badge.svg?branch=5.1)](https://github.com/softspring/doctrine-migrations-version-comparator/actions/workflows/php.yml)
 ![Coverage](https://raw.githubusercontent.com/softspring/doctrine-migrations-version-comparator/5.1/.github/badges/coverage.svg)
 
+## Usage
+
+This library is used for compare Doctrine migrations versions, and sort them by version name (usualy datetime)
+
+```yaml
+# config/packages/doctrine_migrations.yaml
+services:
+    Softspring\Component\DoctrineMigrationsVersionComparator\VersionNumberComparator: ~
+
+doctrine_migrations:
+    services:
+        'Doctrine\Migrations\Version\Comparator': 'Softspring\Component\DoctrineMigrationsVersionComparator\VersionNumberComparator'
+```
+
 ## License
 
 This bundle is under the MIT license. See the complete license in the bundle [LICENSE](LICENSE) file.
