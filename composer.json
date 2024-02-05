@@ -10,7 +10,7 @@
     },
     "require-dev": {
         "doctrine/migrations": "^3.6",
-        "friendsofphp/php-cs-fixer": "3.48.*",
+        "friendsofphp/php-cs-fixer": "3.48.* || 3.49.*",
         "phpstan/phpstan": "^1.9"
     },
     "autoload": {
