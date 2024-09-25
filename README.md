@@ -1,12 +1,11 @@
 # Doctrine migrations version comparator
 
-[![Latest Stable Version](https://poser.pugx.org/softspring/doctrine-migrations-version-comparator/v/stable.svg)](https://packagist.org/packages/softspring/doctrine-migrations-version-comparator)
-[![Latest Unstable Version](https://poser.pugx.org/softspring/doctrine-migrations-version-comparator/v/unstable.svg)](https://packagist.org/packages/softspring/doctrine-migrations-version-comparator)
-[![License](https://poser.pugx.org/softspring/doctrine-migrations-version-comparator/license.svg)](https://packagist.org/packages/softspring/doctrine-migrations-version-comparator)
-[![PHP Version Require](http://poser.pugx.org/softspring/doctrine-migrations-version-comparator/require/php)](https://packagist.org/packages/softspring/doctrine-migrations-version-comparator)
-[![Total Downloads](https://poser.pugx.org/softspring/doctrine-migrations-version-comparator/downloads)](https://packagist.org/packages/softspring/doctrine-migrations-version-comparator)
-[![Build status](https://github.com/softspring/doctrine-migrations-version-comparator/actions/workflows/php.yml/badge.svg?branch=5.3)](https://github.com/softspring/doctrine-migrations-version-comparator/actions/workflows/php.yml)
-![Coverage](https://raw.githubusercontent.com/softspring/doctrine-migrations-version-comparator/5.3/.github/badges/coverage.svg)
+![Latest Stable](https://img.shields.io/packagist/v/softspring/doctrine-migrations-version-comparator?label=stable&style=flat-square)
+![Latest Unstable](https://img.shields.io/packagist/v/softspring/doctrine-migrations-version-comparator?label=unstable&style=flat-square&include_prereleases)
+![License](https://img.shields.io/packagist/l/softspring/doctrine-migrations-version-comparator?style=flat-square)
+![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/doctrine-migrations-version-comparator/php?style=flat-square)
+![Downloads](https://img.shields.io/packagist/dt/softspring/doctrine-migrations-version-comparator?style=flat-square)
+[![CI](https://img.shields.io/github/actions/workflow/status/softspring/doctrine-migrations-version-comparator/php.yml?branch=5.3&style=flat-square&label=CI)](https://github.com/softspring/doctrine-migrations-version-comparator/actions/workflows/php.yml)
 
 ## License
 
