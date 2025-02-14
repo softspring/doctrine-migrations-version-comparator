@@ -2,7 +2,7 @@
     "name": "softspring/doctrine-migrations-version-comparator",
     "description": "Provides a class to sort doctrine migrations by version name",
     "type": "library",
-    "license": "AGPL-3.0",
+    "license": "AGPL-3.0-or-later",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
