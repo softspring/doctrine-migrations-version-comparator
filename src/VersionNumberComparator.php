@@ -14,7 +14,7 @@ class VersionNumberComparator implements Comparator
         try {
             return (new ReflectionClass("$a"))->getShortName() <=> (new ReflectionClass("$b"))->getShortName();
         } catch (ReflectionException $e) {
-            return 0;
+            return "$a" <=> "$b";
         }
     }
 }
