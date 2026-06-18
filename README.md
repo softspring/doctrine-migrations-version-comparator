@@ -6,7 +6,7 @@
 [![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/doctrine-migrations-version-comparator/php?style=flat-square)](https://github.com/softspring/doctrine-migrations-version-comparator/blob/6.0/composer.json)
 [![Downloads](https://img.shields.io/packagist/dt/softspring/doctrine-migrations-version-comparator?style=flat-square)](https://packagist.org/packages/softspring/doctrine-migrations-version-comparator)
 [![CI](https://img.shields.io/github/actions/workflow/status/softspring/doctrine-migrations-version-comparator/ci.yml?branch=6.0&style=flat-square&label=CI)](https://github.com/softspring/doctrine-migrations-version-comparator/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/codecov/c/github/softspring/doctrine-migrations-version-comparator?branch=6.0&style=flat-square)](https://codecov.io/gh/softspring/doctrine-migrations-version-comparator)
+[![Coverage](https://img.shields.io/codecov/c/github/softspring/doctrine-migrations-version-comparator?branch=6.0&style=flat-square)](https://app.codecov.io/gh/softspring/doctrine-migrations-version-comparator/tree/6.0)
 
 Comparator for Doctrine Migrations that sorts migrations by version class name.
 
